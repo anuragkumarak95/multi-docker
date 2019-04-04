@@ -25,7 +25,7 @@
 			"name": "nginx",
 			"memory": 128,
 			"image": "anuragkumarak1995/multi-nginx",
-			"postMappings": [
+			"portMappings": [
 				{
 					"hostPort": 80,
 					"containerPort": 80
