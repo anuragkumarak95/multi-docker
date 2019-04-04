@@ -3,27 +3,27 @@
 	"containerDefinitions": [
 		{
 			"name": "client",
-			"memoryReservation": 500,
+			"memory": 128,
 			"image": "anuragkumarak1995/multi-client",
 			"hostname": "client",
 			"essential": false
 		},
 		{
 			"name": "server",
-			"memoryReservation": 256,
+			"memory": 128,
 			"image": "anuragkumarak1995/multi-server",
 			"hostname": "api",
 			"essential": false
 		},
 		{
 			"name": "worker",
-			"memoryReservation": 256,
+			"memory": 128,
 			"image": "anuragkumarak1995/multi-worker",
 			"essential": false
 		},
 		{
 			"name": "nginx",
-			"memoryReservation": 256,
+			"memory": 128,
 			"image": "anuragkumarak1995/multi-nginx",
 			"postMappings": [
 				{
